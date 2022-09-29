@@ -36,10 +36,10 @@ func main() {
 	var myAgeDays int
 	myAgeDays = myAge * 365
 
-	// Print
-	fmt.Println("My Favorite Color:", favColor, "\nMy Birth Year and Age:", myBirthYear, "&", myAge)
+	// Print Variables
+	fmt.Println("My Favorite Color:", favColor, "\nMy Birth Year and Age:", myBirthYear, ",", myAge)
 
-	fmt.Println("First Initial:", firstInitial, "\nLast Initial:", lastInitial)
+	fmt.Println("First Initial:", firstInitial, "\nLast Initial", lastInitial)
 
 	fmt.Println("My Age in Days:", myAgeDays)
 
