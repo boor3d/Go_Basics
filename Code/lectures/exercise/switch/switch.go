@@ -13,5 +13,26 @@ package main
 
 import "fmt"
 
+func age(x int) int {
+	return x
+}
+
 func main() {
+	// Change personAge for Testing purposes
+	switch personAge := age(7); {
+	case personAge == 0:
+		fmt.Println("Newborn")
+	case personAge <= 3:
+		fmt.Println("Toddler")
+	case personAge <= 12:
+		fmt.Println("Child")
+	case personAge <= 17:
+		fmt.Println("Teenager")
+	case personAge > 17:
+		fmt.Println("Adult")
+	default:
+		fmt.Println("Enter a valid age!")
+
+	}
+
 }
